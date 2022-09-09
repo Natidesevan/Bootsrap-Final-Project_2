@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website Desgin for university</title>
+   
+    <script src="https://kit.fontawesome.com/09f8420945.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,700&family=Merriweather+Sans:wght@300&family=Poppins:wght@200;300;400;600;700&family=Uchen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="./bootsrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+ 
+</head>
+<body>
+    <section class="sub-header">
+<nav>
+    <a href="index.html"><img src="./images/logo2.png"></a>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="ShowMenu()"></i>
+</nav>
+<h1>About Us</h1>
+    </section>
+
+    <!-- about us content -->
+
+    <section class="conataier-fluid">
+        <div class="row">
+            <div class="col right">
+            <h1>We are the World's largest Unversity</h1>
+            <p>Choose from over 20 technology degrees and find your fit at University of Advancing Tech. FU offers courses year-round and full-time students can graduate in less than 3 years. Learn Experience Innovate. Tech: It's all we do. Synchronic Learning.</p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="col left">
+                <img class="name" src="./images/about.jpg">
+            </div>
+        </div>
+    </section>
+
+<!-- Footer -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>The predecessor of the present MY FUture Unversity was the former  Mini_ Water Technology Institute, which was established in 1986 with the objective of producing trained professionals in the field of civil and water  resources. After its transformation to My Future University, since June 2012, it is undergoing into a radical transformation having a vision to be one of the best universities in the country and a center of Excellence in the water sector in Eastern Oakland.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-telegram"></i>
+    </div> 
+    <p>Made with <i class="fa fa-heart-o"></i>by Easy Ways</p> 
+</section>
+
+<!-- Javascript for Toggle Menu -->
+   <script>
+
+    var navLinks = document .getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+   </script>  
+</body>
+</html>

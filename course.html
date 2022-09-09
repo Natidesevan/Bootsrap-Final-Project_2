@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website Desgin for university</title>
+    <script src="https://kit.fontawesome.com/09f8420945.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,700&family=Merriweather+Sans:wght@300&family=Poppins:wght@200;300;400;600;700&family=Uchen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="./bootsrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section class="sub-header">
+<nav>
+    <a href="index.html"><img src="./images/logo2.png"></a>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="ShowMenu()"></i>
+</nav>
+<h1>Our Courses</h1>
+    </section>
+
+    <!-- course -->  
+    <section class="Course">
+        <h1>Courses We Offer</sh1>
+        <p>We have more than 100 degree programs aligned to 300+ real-world occupations, and the ability to tailor your degree with a certificate or specialization.</p>
+        
+        <div class="row">
+            <div class="Course-Col">
+                <h3>Intermediate</h3>
+                <p>Through our nationally recognized Traditional Online programs, you’ll engage in courses that fit your busy life.
+                    You can pursue a fully accredited bachelor’s or master’s degree while maintaining your job and personal.</p>
+            </div>
+            <div class="Course-Col">
+                <h3>Degree</h3>
+                <p>Train Your Team To Build And Execute A Winning Strategy With Balanced Scorecard Training. Learn The Skills You Need To Become a Balanced Scorecard Pro. Enroll Today! Balanced Scorecard Basics. Healthcare & Life Science. Workshops & Training.</p>
+            </div>
+            <div class="Course-Col">
+                <h3>Post Graduation</h3>
+                <p>Advance Your Career With A Professional Writing MA Degree From My Future University. Expert Faculty. Flexible Classes. 158 Masters Degree Programs. Pursue Your True North. Options: In-Person, Personalized Online, Structured Online.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities -->
+    <section class="facilities">
+        <h1>Our facilities</h1>
+        <p>At Post, fit in school without quiting your job. Request online degree info now! Post University - a pioneer in online education. Accelerated Courses. Regionally Accredited.</p>
+    
+        <div class="row">
+            <div class="facilities-Col">
+                <img src="./images/Library.jpg">
+                <h3>World Class Library</h3>
+                <p>Category of Necessary Public Services in which literary, musical, artistic, or reference materials are kept (materials may be kept in any form of media such as electronic, magnetic or paper) for non-commercial use by the public in a facility providing a Direct Benefit to development.</p>
+            </div>
+                <div class="facilities-Col">
+                    <img src="./images/football.jpg">
+                    <h3>Largest Play Ground</h3>
+                    <p>Importance of Outdoor Play Spaces
+                        10 of the World’s Largest and Most Interesting Playgrounds.</p>
+                </div>
+                <div class="facilities-Col">
+                    <img src="./images/cafiteria.jpg">
+                    <h3>Tasty and Healty Food</h3>
+                    <p>healthier breakfast, lunch, and dinner options made with delectably tasty CA dairy. Convenient recipes packed with scrumptious flavors that will save you time. Types: Butter, Cheese, Ice Cream, Milk, Yogurt, Sour Cream, Crème Fraiche.</p>
+                </div>
+            </div>
+    </section>
+    
+<!-- Footer -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>The predecessor of the present MY FUture Unversity was the former  Mini_ Water Technology Institute, which was established in 1986 with the objective of producing trained professionals in the field of civil and water  resources. After its transformation to My Future University, since June 2012, it is undergoing into a radical transformation having a vision to be one of the best universities in the country and a center of Excellence in the water sector in Eastern Oakland.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-telegram"></i>
+    </div> 
+    <p>Made with <i class="fa fa-heart-o"></i>by Easy Ways</p> 
+</section>
+
+<!-- Javascript for Toggle Menu -->
+   <script>
+    var navLinks = document .getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+   </script> 
+
+</body>
+</html>
