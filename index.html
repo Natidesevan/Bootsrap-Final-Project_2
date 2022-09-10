@@ -11,15 +11,15 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,700&family=Merriweather+Sans:wght@300&family=Poppins:wght@200;300;400;600;700&family=Uchen&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
-    <link rel="stylesheet" href="./bootsrap/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
  
 </head>
 <body>
     
     <section class="header">
         <nav>
-            <a href="index.html"><img src="./images/logo2.png"></a>
+            <a href="index.html"><img src="./assets/images/logo2.png"></a>
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
@@ -75,19 +75,19 @@
         
             <div class="row">
                 <div class="Campus-Col">
-                    <img src="./images/Naziret.png">
+                    <img src="./assets/images/Naziret.png">
                     <div class="layer">
                         <h3>NAZIRET</h3>
                     </div>
                 </div>
                 <div class="Campus-Col">
-                    <img src="./images/hawassa.png">
+                    <img src="./assets/images/hawassa.png">
                     <div class="layer">
                         <h3>HAWASSA</h3>
                     </div>
                 </div>
                     <div class="Campus-Col">
-                        <img src="./images/AddisAbeba.png">
+                        <img src="./assets/images/AddisAbeba.png">
                         <div class="layer">
                             <h3>ADDIS-ABEBA</h3>
                         </div>
@@ -104,18 +104,18 @@
         
             <div class="row">
                 <div class="facilities-Col">
-                    <img src="./images/Library.jpg">
+                    <img src="./assets/images/Library.jpg">
                     <h3>World Class Library</h3>
                     <p>Category of Necessary Public Services in which literary, musical, artistic, or reference materials are kept (materials may be kept in any form of media such as electronic, magnetic or paper) for non-commercial use by the public in a facility providing a Direct Benefit to development</p>
                 </div>
                     <div class="facilities-Col">
-                        <img src="./images/football.jpg">
+                        <img src="./assets/images/football.jpg">
                         <h3>Largest Play Ground</h3>
                         <p>Importance of Outdoor Play Spaces
                             10 of the World’s Largest and Most Interesting Playgrounds.</p>
                     </div>
                     <div class="facilities-Col">
-                        <img src="./images/cafiteria.jpg">
+                        <img src="./assets/images/cafiteria.jpg">
                         <h3>Tasty and Healty Food</h3>
                         <p>healthier breakfast, lunch, and dinner options made with delectably tasty CA dairy. Convenient recipes packed with scrumptious flavors that will save you time. Types: Butter, Cheese, Ice Cream, Milk, Yogurt, Sour Cream, Crème Fraiche.</p>
                     </div>
@@ -132,7 +132,7 @@
         
             <div class="row">
                 <div class="testimonials-Col">
-                    <img src="./images/user1.jpg">
+                    <img src="./assets/images/user1.jpg">
                     <div>
                         <p>I stumbled upon the online FU certificate because I needed a program that was fully asynchronous due to my full-time job. Since this was my first foray into online instruction, I was a bit hesitant. I’m happy to report that I couldn’t have made a better choice! In fact, the courses were so thorough that I decided to enroll in the MEd program after completing the certificate. The faculty were knowledgeable, approachable, and quite skillful at leveraging the online nature of the program. I can honestly say that FU changed my career path completely: in a few months, I’ll be starting a PhD program in educational measurement at FU. Two years ago, that never would have been an option!</p>
                         <h3>Biniyam Kebede</h3>
@@ -144,7 +144,7 @@
                     </div>
                 </div>
                 <div class="testimonials-Col">
-                    <img src="./images/user2.jpg">
+                    <img src="./assets/images/user2.jpg">
                     <div>
                         <p>"I am a doctoral student in the Department of Special Education at FU. I was originally interested in increasing my knowledge of statistics so I applied for the ERM certificate. I was so impressed by the level of support and structure the online courses and professors offered, though, that I decided to pursue the MEd MESA degree. I am so thankful to be part of this program. I have learned so much and cannot imagine reading, let alone conducting, research without the skills I have learned through this program.”</p>
                         <h3>Destiny Feleke</h3>
@@ -183,21 +183,15 @@
         </section>
         
         <!-- Javascript for Toggle Menu -->
-        
-           <script>
-        
-            var navLinks = document.getElementById("navLinks");
+
+        <script>
+            var navLinks = document .getElementById("navLinks");
             function showMenu(){
                 navLinks.style.right = "0";
             }
             function hideMenu(){
-                navLinks.style.right ="-200"; 
+                navLinks.style.right = "-200px";
             }
-            
            </script> 
-
-           
-    <script src="./assets/js/bootstrap.bundle.min.js"></script>
-    <script src="./assets/js/app.js"></script>
 </body>
 </html>
